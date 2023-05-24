@@ -1,6 +1,6 @@
 <!-- Custom fonts for this template-->
 <link
-    href="vendor/fontawesome-free/css/all.min.css"
+    href="{{ url('asset/vendor/fontawesome-free/css/all.min.css') }}"
     rel="stylesheet"
     type="text/css"
 />
@@ -10,4 +10,4 @@
 />
 
 <!-- Custom styles for this template-->
-<link href="css/sb-admin-2.min.css" rel="stylesheet" />
+<link href="{{ url('asset/css/sb-admin-2.min.css') }}" rel="stylesheet" />
